@@ -28,11 +28,11 @@ const Footer = () => {
                     <div className="footer-col">
                         <h4>Get Help</h4>
                         <ul>
-                            <li><a href="https://www.youtube.com/watch?v=xvFZjo5PgG0">FAQ</a></li>
-                            <li><a href="https://www.youtube.com/watch?v=cgwmH9MmnUw">Return & Refund</a></li>
-                            <li><a href="https://www.youtube.com/watch?v=xvFZjo5PgG0">Promotion</a></li>
-                            <li><a href="https://www.youtube.com/watch?v=cgwmH9MmnUw">Payment Options</a></li>
-                            <li><a href="https://www.youtube.com/watch?v=xvFZjo5PgG0">Premium Membership</a></li>
+                            <li><a href="https://www.youtube.com/watch?v=eoe79YCNjgQ">FAQ</a></li>
+                            <li><a href="https://www.youtube.com/watch?v=AMDlAXdyKZM">Return & Refund</a></li>
+                            <li><a href="https://www.youtube.com/watch?v=_staaxDY-o8">Promotion</a></li>
+                            <li><a href="https://www.youtube.com/watch?v=SqcY0GlETPk">Payment Options</a></li>
+                            <li><a href="https://www.youtube.com/watch?v=lYvijnPI1Rg">Premium Membership</a></li>
                             
                         </ul>
                     </div>

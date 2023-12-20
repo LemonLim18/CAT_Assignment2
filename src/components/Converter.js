@@ -40,6 +40,7 @@ class Converter extends React.Component {
                         <img src={themeSelection} alt="option" />
                     </div>
                 </div>
+                <p className="disclaimer">** DISCLAIMER: The module shown is for illustration purpose, not actual usage **</p>
             </section>
         );
     }
