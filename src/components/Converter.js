@@ -33,6 +33,14 @@ class Converter extends React.Component {
                         </div>
                     </div>
                 </div>
+
+                <div className="downPart">
+                    <div className="themeSelection">
+                        <h1>Theme Selection</h1>
+                        <p>Select a theme to enhance your PPT</p>
+                        <p>Only one theme can be selected</p>
+                    </div>
+                </div>
             </section>
         );
     }

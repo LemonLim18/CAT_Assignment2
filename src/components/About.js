@@ -1,7 +1,7 @@
 import React from "react";
 import { FaRocket, FaBook } from "react-icons/fa";
-import missionImg from "../images/mission.jpg";
-import visionImg from "../images/vision.jpg";
+import missionImg from "../images/mission.jpeg";
+import visionImg from "../images/vision.jpeg";
 import aboutUsImg from "../images/aboutUs.jpg";
 import "../components/about.css";
 import { useEffect } from 'react';

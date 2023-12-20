@@ -5,6 +5,7 @@ import About from "./components/About.js";
 import Splash from "../src/components/Splash.js";
 import Converter from '../src/components/Converter.js';
 import Product from '../src/components/Product.js';
+import MeetTeam from './components/MeetTeam.js';
 import Contact from '../src/components/Contact.js';
 import Footer from '../src/components/Footer.js';
 
@@ -20,6 +21,7 @@ function App() {
       <Splash />
       <Converter />
       <Product />
+      <MeetTeam/>
       <Contact />
       <Footer />
     </>

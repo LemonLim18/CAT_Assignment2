@@ -46,8 +46,7 @@ label.file-label {
 
   .converter {
     background-color: #ffffff;
-    padding: 3.6rem 0rem;
-    margin: 0px;
+    margin-bottom: 30px;
     height: auto;
     display: flex;
     align-items: center;
@@ -61,7 +60,7 @@ label.file-label {
     background: linear-gradient(to right, #ae00ff, #FFA500);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     font-weight: 1000;
   }
   .converter .container {

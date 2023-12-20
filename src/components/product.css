@@ -5,9 +5,9 @@
 .product .heading {
     color: var(--text-color);
     margin-bottom: 4rem;
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     padding-top: 2.5rem;
-    font-weight:
+    font-weight: 1000;
 }
 .product .heading span {
     background: linear-gradient(to right, #ae00ff, #FFA500);
