@@ -28,6 +28,8 @@ html {
 
   /* Textify logo */
   .logo_full{
+    position: relative;
+    top: -3px;
     height: 158px;
   }
 

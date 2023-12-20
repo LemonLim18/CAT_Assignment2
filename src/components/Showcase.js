@@ -30,9 +30,9 @@ const Showcase = (props) => {
   return (
     <section className="showcase">
       <div className="showcase-text rise">
-        <h1>🚀Welcome to TextifyPDF - Your Ultimate PDF Conversion Solution!📝</h1>
+        <h1>🚀🌟Welcome to TriStarDesign - Your Ultimate PPT AI Design Tools!🖌️🎨</h1>
         <p>
-        Experience the weightless transformation of your PDFs into interstellar text marvels with TextifyPDF. Watch as your documents gracefully navigate the cosmic currents of the web with out TextifyPDF transcends earthly constraints, converting your PDFs into cosmic text wonders. The conversion shines brightly across the vast expanse of your HTML-first universe.
+        Unleash the potential of your presentations with TriStarDesign, a one-page web service designed to breathe new life into your PowerPoint files. Simply upload your PPT file, customize the style and writing font, and watch as your presentation transforms into a visually stunning masterpiece.
         </p>
       </div>
 
