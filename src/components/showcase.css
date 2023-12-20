@@ -1,0 +1,76 @@
+.showcase {
+    height: auto;
+    background-color: var(--color-secondary);
+    background-image: linear-gradient(to bottom, var(--color-primary), rgb(15 23 42 / 0));
+    padding: 30px;
+}
+
+.showcase-blog {
+    min-height: 300px;
+}
+
+.showcase-text {
+    /* determine how much width will the text take up at any scale */
+    max-width: 900px;
+    color: #fff;
+    text-align: center;
+    margin: 80px auto 40px;
+}
+
+.showcase h1 {
+    font-size: 40px;
+    letter-spacing: -0.5px;
+    color: #fff;
+    margin-bottom: 30px;
+    margin-top: 110px;
+}
+
+@media (max-width: 760px) {
+    .showcase-text {
+        max-width: 480px;
+        color: #fff;
+        text-align: center;
+        margin: 35px auto;
+    }
+
+    .showcase p {
+        margin-bottom: 20px;
+        font-size: 18px;
+    }
+    .showcase h1 {
+        margin-top: 110px;
+        margin-bottom: 25px;
+    }
+}
+
+.showcase p {
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+
+.showcase-img {
+    text-align: center; 
+}
+
+.showcase-img img {
+    border-radius: 10px;
+    margin: auto;
+}
+
+.showcase-demo {
+    margin-top: 30px;
+    color: #fff;
+    text-align: center;
+    font-weight: 300;
+}
+
+.rise {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.5s 0.8s, transform 0.5s 0.8s;
+}
+@media (min-width: 1151px) {
+    .showcase {
+        margin-top: 100px;
+    }
+}

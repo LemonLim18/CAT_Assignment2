@@ -1,0 +1,376 @@
+@media (max-width: 1501px) {
+    .about-container {
+        flex-direction: column;
+    }
+
+    .aboutImage {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 0px;
+    }
+    
+    .intro-text {
+       padding: 60px 40px;
+        opacity: 0;
+        transition: opacity 2s ease-in-out;
+    }
+}
+
+.about-container {
+    display: flex;
+    transition: all 1s ease-in-out;
+    border-radius: 10px;
+    box-shadow: 5px 5px  10px 5px rgba(0, 0, 0, 0.5);
+    margin: 0 40px;
+}
+
+/* images adjustment */
+.aboutImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px 0 0 10px;
+}
+
+.intro-text {
+   padding: 60px 40px;
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+}
+
+
+/* ABOUT US */
+.about {
+    margin: 80px 4%;
+}
+
+.about h1 {
+    padding-top: 20px;
+    color: rgb(30, 30, 30);
+    /* Stretch the font vertically and horizontally */
+    transform: scaleY(1.01);
+    font-size: 2.2rem;
+    font-weight: 1000;
+    text-align: left;
+}
+
+.about-shortDesc {
+    color: grey;
+    margin-top: 5px;
+}
+
+.about-content {
+   margin: 40px;
+   display: flex;
+   gap: 10%;
+}
+
+.about-header span{
+    background: linear-gradient(to right, #ae00ff, #FFA500);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.about-header, .about-shortDesc {
+    margin-left: 50px;
+}
+
+/* Align the content to left */
+.about-content h3, .about-content p {
+    text-align: left;
+}
+
+.about-content h3 {
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    font-weight: 760;
+    margin-bottom: 10px;
+}
+
+.about-content h3::after {
+    content: "";
+    display: block;
+    width: 23%;
+    height: 4px;
+    background-color: grey;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.about-content p {
+    line-height: 1.7;
+    color: rgb(61, 61, 61);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-align: justify;
+}
+
+
+/* Rise effect for mission and vision */
+.rise {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.5s 1.4s, transform 0.5s 1.4s;
+}
+
+
+/* MISSION & VISION */
+.mission {
+    margin: 100px 7% 60px;
+}
+
+.mission h1 {
+    color: rgb(30, 30, 30);
+    /* Stretch the font vertically and horizontally */
+    transform: scaleY(1.01);
+    font-size: 2.3rem;
+    font-weight: 1000;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.mission-shortDesc {
+    color: grey;
+    margin-top: 5px;
+}
+
+.mission-content {
+   margin: 40px;
+   display: flex;
+   gap: 10%;
+}
+
+/* Align the content to left */
+.mission-content h3, .mission-content p {
+    text-align: left;
+}
+
+.mission-content h3 {
+    color: rgb(0, 0, 0);
+    font-size: 1.8rem;
+    font-weight: 760;
+    margin-bottom: 10px;
+}
+
+.mission-content p {
+    line-height: 1.27;
+    color: rgb(61, 61, 61);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-align: justify;
+}
+
+.mission-content h3::after {
+    content: "";
+    display: block;
+    width: 60%;
+    height: 2px;
+    background-color: grey;
+    margin-top: 10px;
+}
+
+/* images adjustment */
+.column1 img {
+    height: 350px;
+    border-radius: 3.5%;
+    object-fit: contain;
+ }
+
+ .column2 img {
+    height: 350px;
+    border-radius: 3.5%;
+    object-fit: contain;
+ }
+
+
+/* Rise effect for mission and vision */
+.rise {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.5s 1.4s, transform 0.5s 1.4s;
+}
+
+
+/* Media queries */
+@media (min-width: 601px) and (max-width: 1500px) {
+    .about-header {
+        display: flex;
+        justify-content: center;
+    }
+
+    .about-header span{
+        margin-right: 12px;
+    }
+    
+    .about-shortDesc {
+        text-align: center;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .mission h1 {
+        color: rgb(30, 30, 30);
+        /* Stretch the font vertically and horizontally */
+        transform: scaleY(1.01);
+        font-size: 2.2rem;
+        font-weight: 1000;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .mission-shortDesc {
+        color: grey;
+        margin-top: 5px;
+        text-align: center;
+    }
+
+    .mission-content {
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        gap: 10%;
+     }
+
+     .mission-content .column1{
+        margin-bottom: 30px;
+     }
+     
+     /* Align the content to left */
+     .mission-content h3, .mission-content p {
+         text-align: left;
+     }
+     
+     .mission-content h3 {
+         color: rgb(0, 0, 0);
+         font-size: 1.5rem;
+         font-weight: 760;
+         margin-bottom: 10px;
+         text-align: center;
+     }
+     
+     .mission-content p {
+         line-height: 1.27;
+         color: rgb(61, 61, 61);
+         font-family: 'Roboto', sans-serif;
+         font-size: 1.1rem;
+         font-weight: 500;
+         text-align: center;
+     }
+     
+     .mission-content h3::after {
+         content: "";
+         display: block;
+         width: 60%;
+         height: 2px;
+         background-color: grey;
+         margin-top: 10px;
+         margin-left: auto;
+         margin-right: auto;
+     }
+
+     .column1 img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 100;
+   
+     }
+    
+     .column2 img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+     }
+
+     /* stretch until this length */
+     .intro-text {
+        max-height: 734px;
+        overflow-y: auto;
+     }
+}
+
+@media (max-width: 600px) {
+    .mission h1 {
+        color: rgb(30, 30, 30);
+        /* Stretch the font vertically and horizontally */
+        transform: scaleY(1.01);
+        font-size: 2.2rem;
+        font-weight: 1000;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .mission-shortDesc {
+        color: grey;
+        margin-top: 5px;
+        text-align: center;
+    }
+
+    .mission-content {
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        gap: 10%;
+     }
+
+     .mission-content .column1{
+        margin-bottom: 30px;
+     }
+     
+     /* Align the content to left */
+     .mission-content h3, .mission-content p {
+         text-align: left;
+     }
+     
+     .mission-content h3 {
+         color: rgb(0, 0, 0);
+         font-size: 1.5rem;
+         font-weight: 760;
+         margin-bottom: 10px;
+         text-align: center;
+     }
+     
+     .mission-content p {
+         line-height: 1.27;
+         color: rgb(61, 61, 61);
+         font-family: 'Roboto', sans-serif;
+         font-size: 1.1rem;
+         font-weight: 500;
+         text-align: center;
+     }
+     
+     .mission-content h3::after {
+         content: "";
+         display: block;
+         width: 60%;
+         height: 2px;
+         background-color: grey;
+         margin-top: 10px;
+         margin-left: auto;
+         margin-right: auto;
+     }
+
+     .column1 img {
+        display: block;
+        width: 108%;
+        margin-left: auto;
+        margin-right: auto;
+   
+     }
+    
+     .column2 img {
+        display: block;
+        width: 108%;
+        margin-left: auto;
+        margin-right: auto;
+        
+     }
+
+     /* stretch until this length */
+     .intro-text {
+        max-height: 734px;
+        overflow-y: auto;
+     }
+}

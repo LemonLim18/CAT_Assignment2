@@ -1,0 +1,305 @@
+/* Start of Converter */
+label.file-label {
+    position: fixed;
+    bottom: 51px;
+    left: -10px;
+    display: inline-block;
+    font-size: 0.7rem;
+    padding: 8px 18px 8px 22px;
+    background: linear-gradient(to right, #ae00ff, #FFA500);
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition-duration: 0.2s;
+    box-shadow: rgba(50,50,93, 0.25) 0px 13px 27px -5px , rgba(0,0,0, 0.3) 0px 8px 16px 1px;
+  }
+  /* label.file-label:hover {
+    transform: scale(1.05);
+    transition: ease-in-out 0.3s;
+    position: fixed;
+    bottom: 51px;
+    left: -10px;
+    display: inline-block;
+    font-size: 0.7rem;
+    padding: 8px 18px 8px 22px;
+    color: #ae00ff;
+    background: white;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: rgba(50,50,93, 0.25) 0px 13px 27px -5px , rgba(0,0,0, 0.3) 0px 8px 16px 1px;
+  }
+  */
+  label.file-label:active {
+    position: fixed;
+    bottom: 51px;
+    left: -10px;
+    display: inline-block;
+    font-size: 0.7rem;
+    padding: 8px 18px 8px 22px;
+    color: #ae00ff;
+    background: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition-duration: 0.2s;
+    box-shadow: inset 0px 0px 5px rgba(0,0,0,0.5);
+}
+
+  .converter {
+    background-color: #ffffff;
+    padding: 3.6rem 0rem;
+    margin: 0px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .converter header {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .converter header h2 {
+    background: linear-gradient(to right, #ae00ff, #FFA500);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.5rem;
+    font-weight: 1000;
+  }
+  .converter .container {
+    text-align: center;
+    width: 90%;
+    max-width: 1050px;
+    height: 95%;
+    padding-top: 30px;
+    margin: 30px;
+    background: linear-gradient(to bottom, #5d0cff, #ffb62d);
+    border-radius: 16px;
+    box-shadow: rgba(255,255,255, 0.1) 0px 1px 1px 0px inset, rgba(50,50,93, 0.25) 0px 50px 100px -20px, rgba(0,0,0, 0.3) 0px 30px 60px -30px;  
+    display: block;
+  }
+
+  .header-section {
+    padding: 23px 0px;
+  }
+
+  .header-section h1 {
+    font-weight: 500;
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    color: #f1f5ff;
+    margin: 0px;
+    margin-bottom: 8px;
+  }
+
+  .header-section h1::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color:#c8b8ff4d;
+    margin: 8px auto 20px;
+    border-radius: 5px;
+  }
+  
+  .header-section p{
+    margin: 5px;
+    font-size: 0.95rem;
+    color: #f1f5ff;
+  }
+
+  .browse-section {
+    min-height: 250px;
+    border: 1px dashed #ff642c;
+    background-image: linear-gradient(180deg, white, #F1F6FF);
+    margin: 5px 35px 35px 35px;
+    border-radius: 25px;
+    position: relative;
+    padding-bottom: 15px;
+  }
+
+  @media (max-width: 667px) {
+    .browse-section {
+      margin-left:70px;
+      margin-right: 70px;
+    }
+    /* label.file-label {
+      left: 20px;
+    } */
+    .browse-file{
+      position: relative;
+      right: 30px;
+    }
+  }
+
+  .browse-section h1 {
+    margin-bottom: 20px;
+  }
+
+  .browse-section div.col:first-child {
+    opacity: 1;
+    visibility: visible;
+    transition-duration: 0.2s;
+    transform: scale(1);
+    width: 200px;
+    margin: auto;
+  }
+
+  .browse-section .cloud-icon {
+    margin-top: 25px;
+    margin-bottom: 10px;
+  }
+
+  .browse-section span,
+  .browse-section button {
+    display: block;
+    margin: auto;
+    color: #707EA0;
+    margin-bottom: 18px;
+  }
+
+
+  .browse-section button {
+    color: white;
+    background: linear-gradient(to bottom, #ae00ff, #FFA500);
+    border: none;
+    outline: none;
+    padding: 8px 23px;
+    border-radius: 12px;
+    margin-top: 24px;
+    cursor: pointer;
+    box-shadow: rgba(50,50,93, 0.25) 0px 13px 27px -5px , rgba(0,0,0, 0.3) 0px 8px 16px 1px;
+  }
+
+  .browse-section button:hover {
+    transform: scale(1.05);
+    transition: ease-in-out 0.3s;
+    color: #ae00ff;
+    background: white;
+    border: none;
+    outline: none;
+    padding: 8px 23px;
+    border-radius: 12px;
+    margin-top: 24px;
+    cursor: pointer;
+    box-shadow: rgba(50,50,93, 0.25) 0px 13px 27px -5px , rgba(0,0,0, 0.3) 0px 8px 16px 1px;
+  }
+
+  .browse-section button:active {
+    color: #ae00ff;
+    background: white;
+    border: none;
+    outline: none;
+    padding: 8px 23px;
+    border-radius: 12px;
+    margin-top: 24px;
+    cursor: pointer;
+    box-shadow: inset 0px 0px 5px rgba(0,0,0,0.5);
+  }
+
+  .download-section {
+    /* here used to remove the list of file uploaded */
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    margin: 20px 35px 30px 35px;
+    padding: 25px 30px 10px 30px;
+    background-color: #ffffff;
+    border-radius: 30px;
+  }
+
+  @media (max-width: 921px) {
+    .download-section {
+      flex-direction: column;
+    }
+  }
+
+  .download-section .download-title {
+    font-size: 1.05rem;
+    color: #24262b;
+    margin: 0px 25px;
+  }
+  .download-section li{
+    display: flex;
+    margin: 10px 0px 20px 0px;
+    padding-top: 4px;
+    padding-bottom: 8px;
+    border-radius: 8px;
+    transition-duration: 0.2s;
+    box-shadow: #E3EAF9 0px 0px 4px 0px, #E3EAF9 0px 12px 16px 0px;
+  }
+  .download-section li .col{
+    flex: .1;
+  }
+  .download-section li p{
+    margin-bottom: 0px;
+  }
+  .download-section li .col:nth-child(2){
+    flex: .75;
+    text-align: left;
+    font-size: 0.9rem;
+    color: #3e4046;
+    padding: 8px 10px;
+  }
+  .download-section li .col:nth-child(2) div.name{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 250px;
+    display: inline-block;
+  }
+  .download-section li .col .file-name span{
+    color: #707EA0;
+    float: right;
+  }
+  .download-section li .file-progress{
+    width: 100%;
+    height: 5px;
+    margin-top: 8px;
+    border-radius: 8px;
+    background-color: #dee6fd;
+  }
+  .download-section li .file-progress span{
+    display: block;
+    width: 50%;
+    height: 100%;
+    border-radius: 8px;
+    background-image: linear-gradient(120deg, #6b99fd, #9385ff);
+    transition-duration: 0.4s;
+  }
+  .download-section li .col .file-size{
+    font-size: 0.75rem;
+    margin-top: 0px;
+    margin-bottom: 3px;
+    color: #707EA0;
+  }
+
+  .download-section li .col svg.tick-icon,
+  .download-section li .col svg.cross-icon {
+    fill: #8694d2;
+    background-color: #dee6fd;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform:  translate(-50%, -50%);
+    border-radius: 50%;
+  }
+  .download-section li .col svg.tick-icon {
+    fill: #50a156;
+    background-color: transparent;
+  }
+  /* smaller section of download section */
+  .download-section li.complete {
+    max-height: 150px;
+    overflow-y: auto;
+    margin: 10px 25px;
+  }
+  .download-section li.complete span,
+  .download-section li.complete .file-progress,
+  .download-section li.complete svg.cross-icon {
+    display: none;
+  }
+
+  .download-section li.in-prog .file-size,
+  .download-section li.in-prog svg.tick-icon{
+    display: none;
+  }
+/* End of Converter */
