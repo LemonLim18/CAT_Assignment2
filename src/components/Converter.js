@@ -1,6 +1,7 @@
 import React from 'react';
 import "../components/converter.css";
 import CloudIcon from  "../images/cloud.png";
+import themeSelection from "../images/themeSelection.jpg";
 
 class Converter extends React.Component {
     render() {
@@ -33,12 +34,10 @@ class Converter extends React.Component {
                         </div>
                     </div>
                 </div>
-
+            
                 <div className="downPart">
                     <div className="themeSelection">
-                        <h1>Theme Selection</h1>
-                        <p>Select a theme to enhance your PPT</p>
-                        <p>Only one theme can be selected</p>
+                        <img src={themeSelection} alt="option" />
                     </div>
                 </div>
             </section>

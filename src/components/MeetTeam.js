@@ -17,7 +17,7 @@ import Card from "../components/Card.js";
 
 const MeetTeam = () => {
     return (  
-        <section className="meetTeam">
+        <section className="meetTeam" id="meetTeam">
             {/* Start of Meet Our Team */}
             <div className="wrapper">
 

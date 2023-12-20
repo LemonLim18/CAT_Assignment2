@@ -176,7 +176,7 @@ html {
   }
 
 
-  @media (max-width:900px){
+  @media (max-width:1010px){
     .logo_short {
       /* align it to the leftmost */
       position: relative;
@@ -228,7 +228,7 @@ html {
     }
   }
 
-  @media (min-width: 901px) and (max-width:1150px) {
+  @media (min-width: 1011px) and (max-width:1150px) {
     .banner img {
       object-fit: cover;
       width: 100%;

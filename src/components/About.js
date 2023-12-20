@@ -11,7 +11,7 @@ const Mission = () => {
     return (
         <>
         {/* ABOUT US CONTENT */}
-        <section className="about" id="about">
+        <section className="about" id="aboutUs">
             <h1 className="about-header rise"><span>About</span> Us</h1>
             <p className="about-shortDesc rise"> Catch a glimpse of who we really are. Explore more about our past, present and the future!!</p>
 
