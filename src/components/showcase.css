@@ -17,36 +17,44 @@
     margin: 80px auto 40px;
 }
 
-.showcase h1 {
-    font-size: 40px;
-    letter-spacing: -0.5px;
-    color: #fff;
-    margin-bottom: 30px;
-    margin-top: 110px;
+@media (min-width: 813px) {
+    .showcase h1 {
+        font-size: 40px;
+        letter-spacing: -0.5px;
+        color: #fff;
+        margin-bottom: 30px;
+        margin-top: 110px;
+    }
+    .showcase p {
+        font-size: 19px;
+        margin-bottom: 20px;
+    }
 }
 
-@media (max-width: 760px) {
+
+@media (max-width: 812px) {
     .showcase-text {
         max-width: 480px;
         color: #fff;
         text-align: center;
         margin: 35px auto;
+        width: 100%;
+    }
+
+    .showcase h1 {
+        margin-top: 110px;
+        margin-bottom: 25px;
+        font-size: 33px;
     }
 
     .showcase p {
         margin-bottom: 20px;
-        font-size: 18px;
+        font-size: 16px;
     }
-    .showcase h1 {
-        margin-top: 110px;
-        margin-bottom: 25px;
-    }
+    
 }
 
-.showcase p {
-    font-size: 19px;
-    margin-bottom: 20px;
-}
+
 
 .showcase-img {
     text-align: center; 

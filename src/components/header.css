@@ -220,6 +220,7 @@ html {
     /* Show the menu icon(last child) here */
     .header ul li:last-child {
       display: block;
+      margin-right: 15px;
     }
     
     /* Blur the whole mobile screen when less than 600px */
@@ -313,7 +314,7 @@ html {
   @media (min-width: 1151px) {
     .banner img {
       width: 100%;
-      height: 105%;
+      height: 10%;
       top: 113px;
     }
     .header ul li:last-child {
@@ -329,4 +330,13 @@ html {
     background-color: black;
     /* testing */
     transition: top 0.3s;
+  }
+
+  @media (min-width: 760px) and (max-width:1011px) {
+    .banner img {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+      top: 90px;
+    }
   }

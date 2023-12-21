@@ -12,7 +12,7 @@ label.file-label {
     cursor: pointer;
     transition-duration: 0.2s;
     box-shadow: rgba(50,50,93, 0.25) 0px 13px 27px -5px , rgba(0,0,0, 0.3) 0px 8px 16px 1px;
-  }
+}
   /* label.file-label:hover {
     transform: scale(1.05);
     transition: ease-in-out 0.3s;
@@ -84,19 +84,26 @@ label.file-label {
       box-shadow: rgba(255,255,255, 0.1) 0px 1px 1px 0px inset, rgba(50,50,93, 0.25) 0px 55px 110px -20px, rgba(0,0,0, 0.3) 0px 30px 60px -30px;  
       display: block;
       margin-bottom: 25px;
+      height: 100%;
   }
 
   .converter .disclaimer {
     color: rgb(141, 141, 141);
     font-weight: 600;
+    font-size: 0.7rem;
+    text-align: center;
+    margin-top: 10px;
     margin-bottom: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
   .themeSelection img {
     width: 100%;
     height: 100%;
-    object-fit: contain;
+    object-fit: cover;
     border-radius: 0px 0px 16px 16px;
+    box-shadow: rgba(15, 11, 255, 0.1) 0px 1px 1px 0px inset, rgba(50,50,93, 0.25) 0px 55px 110px -20px, rgba(0,0,0, 0.3) 0px 30px 60px -30px;
   }
 
   .header-section {
@@ -138,10 +145,10 @@ label.file-label {
     padding-bottom: 15px;
   }
 
-  @media (max-width: 667px) {
+  @media (min-width: 376px) and (max-width: 667px) {
     .browse-section {
-      margin-left:70px;
-      margin-right: 70px;
+      margin-left: 40px;
+      margin-right: 40px;
     }
     /* label.file-label {
       left: 20px;
@@ -325,3 +332,55 @@ label.file-label {
     display: none;
   }
 /* End of Converter */
+
+@media (max-width: 376px) {
+  .browse-section {
+    margin-left:20px;
+    margin-right: 20px;
+  }
+  /* label.file-label {
+    left: 20px;
+  } */
+  .browse-file{
+    position: relative;
+    width: 100%;
+  }
+
+  /* Browse Files Button */
+  label.file-label {
+    position: fixed;
+    bottom: 51px;
+    left: 30px;
+    display: inline-block;
+    font-size: 0.7rem;
+    padding: 8px 15px 8px 15px;
+    background: linear-gradient(to right, #ae00ff, #FFA500);
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition-duration: 0.2s;
+    box-shadow: rgba(50,50,93, 0.25) 0px 13px 27px -5px , rgba(0,0,0, 0.3) 0px 8px 16px 1px;
+  }
+
+  /* Upload Button */
+  .browse-section button {
+    color: white;
+    background: linear-gradient(to bottom, #ae00ff, #FFA500);
+    border: none;
+    outline: none;
+    padding: 8px 23px;
+    border-radius: 12px;
+    margin-top: 24px;
+    cursor: pointer;
+    box-shadow: rgba(50,50,93, 0.25) 0px 13px 27px -5px , rgba(0,0,0, 0.3) 0px 8px 16px 1px;
+  }
+
+  .converter .disclaimer {
+    color: rgb(141, 141, 141);
+    font-weight: 600;
+    font-size: 0.6rem;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 25px;
+  }
+}

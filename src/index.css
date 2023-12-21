@@ -69,6 +69,10 @@ h3 {
   display: none;
 }
 
+.logos-extraSmall {
+  display: none;
+}
+
 /* Page Content */
 .page-content {
   margin: 20px 0;
@@ -88,13 +92,28 @@ h3 {
 }
 
 /* Make the long logo disappears when the screen is shrinked and make the short logo appears */
-@media (max-width: 960px) {
+@media (min-width: 421px) and (max-width: 960px) {
   .logos-small {
     display: block;
     margin: auto;
   }
   .logos {
     display: none;
+  }
+  .logos-extraSmall {
+    display: none;
+  }
+}
+
+@media (max-width: 420px) {
+  .logos {
+    display: none;
+  }
+  .showcase-img .logos-small {
+      display: none;
+  }
+  .showcase-img .logos-extraSmall {
+      display: block;
   }
 }
 

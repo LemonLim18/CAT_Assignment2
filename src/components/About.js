@@ -40,6 +40,7 @@ const Mission = () => {
 
             </div>
         </section>
+        {/* END OF ABOUT US CONTENT */}
         
         {/* MISSION & VISION CONTENT */}
         <section className="mission" id="mission">
@@ -50,7 +51,7 @@ const Mission = () => {
                 <div className="column1 rise">
                     <div>
                         <h3>Our Mission <FaRocket /></h3> 
-                        <img src={missionImg} alt="Mission-Images" />
+                        {/* <img src={missionImg} alt="Mission-Images" /> */}
                     </div>
                     <div>
                         <p>To empower users by automating and enhancing interaction with documents. To extract text, key-value pairs, tables and structures from documents automatically and accurately.</p>
@@ -59,7 +60,7 @@ const Mission = () => {
                 </div>
                 <div className="column2 rise">
                     <h3>Our Vision <FaBook/></h3>
-                    <img src={visionImg} alt="vision"></img>
+                    {/* <img src={visionImg} alt="vision"></img> */}
                     <p>To create an AI service that not only understands and organize  documents but also enhances productivity tools. To shift users’ focus to acting on information rather than compiling it.</p>
                 </div>
 

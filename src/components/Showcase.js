@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import logos from '../images/framework-logos.png';
 import logoSmall from '../images/framework-logos-small.png';
+import logoExtraSmall from '../images/framework-logos-extraSmall.png';
 import "../components/showcase.css";
 
 const Showcase = (props) => {
@@ -40,6 +41,7 @@ const Showcase = (props) => {
           <div className="showcase-img">
             <img className="logos rise" src={logos} alt="" />
             <img className="logos-small rise" src={logoSmall} alt="" />
+            <img className="logos-extraSmall rise" src={logoExtraSmall} alt="" />
           </div>
 
           <p className="showcase-demo rise">
