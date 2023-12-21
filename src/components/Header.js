@@ -70,7 +70,7 @@ const Header = () => {
         </ul>
       </nav>
       <section className="banner">
-        <img className="original" src={astronaut} alt="banner"></img>
+        <img src={astronaut} alt="banner"></img>
       </section>
     </div>
   );
