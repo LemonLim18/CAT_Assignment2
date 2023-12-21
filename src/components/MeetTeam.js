@@ -33,9 +33,9 @@ const MeetTeam = () => {
                         role="CEO & Founder" 
                         socialLinks={{ 
                             // wait for Kaa Hong to provide the links
-                            instagram: 'instagram_link', 
-                            github: 'github_link', 
-                            linkedin: 'linkedin_link' 
+                            instagram: 'https://www.instagram.com/albertkhoo0806/', 
+                            github: 'https://github.com/AlbertKhoo', 
+                            linkedin: 'https://www.linkedin.com/in/kaa-hong-khoo-73b28a271/' 
                         }} 
                     />
 
