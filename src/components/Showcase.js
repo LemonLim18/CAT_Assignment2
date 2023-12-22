@@ -31,17 +31,17 @@ const Showcase = (props) => {
   return (
     <section className="showcase">
       <div className="showcase-text rise">
-        <h1>🚀🌟Welcome to TristarDesign - Your Ultimate PPT AI Design Tools!🖌️🎨</h1>
+        <h1>🚀 Welcome to TristarDesign - Your Ultimate PPT AI Design Tools! 🎨</h1>
         <p>
         Unleash the potential of your presentations with TristarDesign, a one-page web service designed to breathe new life into your PowerPoint files. Simply upload your PPT file, customize the style and writing font, and watch as your presentation transforms into a visually stunning masterpiece.
         </p>
       </div>
 
         <>
-          <div className="showcase-img">
-            <img className="logos rise" src={logos} alt="" />
-            <img className="logos-small rise" src={logoSmall} alt="" />
-            <img className="logos-extraSmall rise" src={logoExtraSmall} alt="" />
+          <div className="showcase-img rise">
+            <img className="logos" src={logos} alt="" />
+            <img className="logos-small" src={logoSmall} alt="" />
+            <img className="logos-extraSmall" src={logoExtraSmall} alt="" />
           </div>
 
           <p className="showcase-demo rise">

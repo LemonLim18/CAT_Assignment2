@@ -218,6 +218,9 @@
 
 /* Media queries */
 @media (min-width: 921px) and (max-width: 1000px) {
+    .about {
+        margin-top: 50px;
+    }
     .about-header {
         display: flex;
         justify-content: center;
@@ -316,6 +319,10 @@
 }
 
 @media (min-width: 601px) and (max-width: 920px) {
+    .about {
+        margin-top: 40px;
+    }
+
     .mission h1 {
         color: rgb(30, 30, 30);
         /* Stretch the font vertically and horizontally */
@@ -428,7 +435,11 @@
     }
 }
 
-@media (min-wdith: 500px) and (max-width: 600px) {
+@media (min-width: 500px) and (max-width: 600px) {
+    .about {
+        margin-top: 35px;
+    }
+
     .about h1, .about .about-shortDesc {
         text-align: center;
     }
@@ -541,6 +552,7 @@
 }
 
 @media (min-width: 645px) and (max-width: 755px) {
+
     .about-content p {
         line-height: 1.7;
         color: rgb(61, 61, 61);
@@ -552,6 +564,10 @@
 }
 
 @media (min-width: 535px) and (max-width: 600px) {
+    .about {
+        margin-top: 35px;
+    }
+
     .about h1, .about .about-shortDesc {
         text-align: center;
     }
@@ -663,7 +679,11 @@
      }
 }
 
-@media (min-width: 445px) and (max-width: 534px) {
+@media (min-width: 445px) and (max-width: 535px) {
+    .about {
+        margin-top: 35px;
+    }
+
     .about h1, .about .about-shortDesc {
         text-align: center;
     }
@@ -776,6 +796,18 @@
 }
 
 @media (max-width: 445px) {
+    .about {
+        margin-top: 35px;
+    }
+    
+    .about h1 {
+        font-size: 1.9rem;
+    }
+
+    .about .about-shortDesc {
+        font-size: 0.78rem;
+    }
+
     .about h1, .about .about-shortDesc {
         text-align: center;
     }

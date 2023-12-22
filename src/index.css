@@ -114,6 +114,7 @@ h3 {
   }
   .showcase-img .logos-extraSmall {
       display: block;
+      width: 55%;
   }
 }
 

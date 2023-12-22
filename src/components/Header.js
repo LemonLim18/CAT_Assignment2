@@ -41,7 +41,7 @@ const Header = () => {
 
 
   return (
-    <div>
+    <div className='home'>
       <header className="header" id="myHeader">
         <a href="#">
           <img className="logo_full" src={logo_full} alt="Logo" />
