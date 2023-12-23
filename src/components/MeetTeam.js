@@ -36,8 +36,8 @@ const MeetTeam = () => {
                         innerImage = {innerKaaHong} 
                         name="Albert Khoo Kaa Hong" 
                         role="CEO & Founder"
-                        jobDescFirst='Our dynamic Chief Executive Officer and visionary leader at BKLT Inc. Albert holds a Ph.D. in Artificial Intelligence from Stanford University, bringing a strong educational foundation to his role.With a remarkable career marked by being recognized as "Innovator of the Year" in 2023, Albert has propelled BKLT Inc. to the forefront of AI-powered presentation enhancement. His strategic vision and dedication to innovation continue to drive our commitment to transforming the landscape of presentations.'
-                        jobDescSecond=''
+                        jobDescFirst='Our dynamic Chief Executive Officer and visionary leader at BKLT Inc. Albert holds a Ph.D. in Artificial Intelligence from Stanford University, bringing a strong educational foundation to his role.'
+                        jobDescSecond='With a remarkable career marked by being recognized as "Innovator of the Year" in 2023, Albert has propelled BKLT Inc. to the forefront of AI-powered presentation enhancement. His strategic vision and dedication to innovation continue to drive our commitment to transforming the landscape of presentations.'
                         socialLinks={{ 
                             // wait for Kaa Hong to provide the links
                             instagram: 'https://www.instagram.com/albertkhoo0806/', 
@@ -51,7 +51,8 @@ const MeetTeam = () => {
                         innerImage = {innerMiinNing} 
                         name="Lim Miin Ning" 
                         role="Front-End Web Developer" 
-                        jobDesc=""
+                        jobDescFirst='Our brilliant Chief Technology Officer at BKLT Inc. Miin Ning orchestrates the symphony of innovation, crafting AI algorithms that elevate the art of presentations. Miin Ning holds a Ph.D. in Computer Science from the prestigious Stanford University, unveiling a profound mastery of avant-garde technologies.'
+                        jobDescSecond="Miin Ning is responsible for overseeing the technological aspects of the organization. He designs and maintains the technical architecture of the company's systems and infrastructure as well as ensure scalability, security, and reliability of technology solutions."
                         socialLinks={{ 
                             instagram: 'https://www.instagram.com/lemon_lim03?igshid=OGQ5ZDc2ODk2ZA==', 
                             github: 'https://github.com/LemonLim18', 
@@ -64,7 +65,8 @@ const MeetTeam = () => {
                         innerImage = {innerWeiHong} 
                         name="Bok Wei Hong" 
                         role="Back-End Web Developer" 
-                        jobDesc=""
+                        jobDescFirst="Our maestro of efficiency and Chief Operations Dynamo at BKLT Inc. Wei Hong orchestrates seamless workflows, ensuring every note of our business harmonizes flawlessly. His main job scope is to develop and implement operational strategies aligned with the company's overall business goals."
+                        jobDescSecond="Wei Hong holds a Master's in Business Administration from Harvard University, a testament to his educational voyage through the realms of business strategy and operational excellence."
                         socialLinks={{ 
                             instagram: 'https://www.instagram.com/chuck_bok2901/', 
                             github: 'https://github.com/BokWeiHong', 
@@ -77,7 +79,8 @@ const MeetTeam = () => {
                         innerImage = {innerKaiLun} 
                         name="Teoh Kai Lun" 
                         role="UI/UX Designer" 
-                        jobDesc=""
+                        jobDescFirst="Our Chief Financial Virtuoso at BKLT Inc. Teoh orchestrates the financial landscape, turning numbers into a symphony of stability and growth. Teoh holds a degree in Finance from University of California - Berkeley, composing a educational sonata that underscores his mastery of financial intricacies."
+                        jobDescSecond="Teoh's expertise is a performance in financial wizardry, where budgets transform into overtures of success. As our Financial Maestro, Teoh navigates the fiscal score with precision and strategic acumen."
                         socialLinks={{ 
                             instagram: 'https://www.instagram.com/kailun09_/', 
                             github: 'https://github.com/Kailun03', 

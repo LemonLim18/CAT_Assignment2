@@ -2,7 +2,7 @@ import React from 'react';
 import { FaInstagram, FaGithub, FaLinkedin, FaFacebook } from 'react-icons/fa';
 import "../components/card.css";
 
-const Card = ({ imageSrc, innerImage, name, role, jobDesc, socialLinks }) => {
+const Card = ({ imageSrc, innerImage, name, role, jobDescFirst, jobDescSecond, socialLinks }) => {
     const modalId = `modal_${name.replace(/\s/g, '')}`; // Create a unique ID for each modal
 
     const openModal = () => {
@@ -59,7 +59,6 @@ const Card = ({ imageSrc, innerImage, name, role, jobDesc, socialLinks }) => {
                         <div className="row2">
                             <h2>{name}</h2>
                             <p>{ jobDescFirst }</p>
-                            <br></br>
                             <p>{ jobDescSecond }</p>
 
                             {/* Add media icon */}
