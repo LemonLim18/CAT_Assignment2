@@ -124,11 +124,3 @@ h3 {
     text-align: center;
   }
 }
-
-
-/* Customize the scrollbar */
-::-webkit-scrollbar-thumb {
-  background-color: blue;    /* color of the scroll thumb */
-  border-radius: 20px;       /* roundness of the scroll thumb */
-  border: 3px solid orange;  /* creates padding around scroll thumb */
-}

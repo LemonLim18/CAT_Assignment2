@@ -62,6 +62,10 @@
     align-items: center;
 }
 
+.card_Container .card:hover {
+    cursor: pointer;
+}
+
 .card .imbBx, .imbBx img{
     width: 100%;
     height: 100%;

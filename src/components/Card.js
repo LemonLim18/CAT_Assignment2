@@ -16,9 +16,9 @@ const Card = ({ imageSrc, innerImage, name, role, jobDescFirst, jobDescSecond, s
     };
 
     return (
-        <div className="card" onClick={openModal}>
+        <div className="card">
             <div className="imbBx">
-                <img src={imageSrc} alt=""/>
+                <img src={imageSrc} alt="" onClick={openModal}/>
             </div>
             <div className="content">
                 <div className="contentBx">
