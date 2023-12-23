@@ -12,6 +12,10 @@ import kailun from "../images/kailun.jpg";
 import kailun_casual from "../images/kailun_casual.jpg";
 import weihong from "../images/weihong.jpg";
 import weihong_casual from "../images/weihong_casual.jpg";
+import innerWeiHong from "../images/innerBok.png";
+import innerKaaHong from "../images/innerKaaHong.png";
+import innerKaiLun from "../images/innerKaiLun.png";
+import innerMiinNing from "../images/innerMiinNing.png";
 import { FaInstagram, FaGithub, FaLinkedin } from "react-icons/fa";
 import Card from "../components/Card.js";
 
@@ -28,9 +32,12 @@ const MeetTeam = () => {
                 <div className="card_Container">
 
                     <Card 
-                        imageSrc={kaahong} 
+                        imageSrc={kaahong}
+                        innerImage = {innerKaaHong} 
                         name="Albert Khoo Kaa Hong" 
-                        role="CEO & Founder" 
+                        role="CEO & Founder"
+                        jobDescFirst='Our dynamic Chief Executive Officer and visionary leader at BKLT Inc. Albert holds a Ph.D. in Artificial Intelligence from Stanford University, bringing a strong educational foundation to his role.With a remarkable career marked by being recognized as "Innovator of the Year" in 2023, Albert has propelled BKLT Inc. to the forefront of AI-powered presentation enhancement. His strategic vision and dedication to innovation continue to drive our commitment to transforming the landscape of presentations.'
+                        jobDescSecond=''
                         socialLinks={{ 
                             // wait for Kaa Hong to provide the links
                             instagram: 'https://www.instagram.com/albertkhoo0806/', 
@@ -41,8 +48,10 @@ const MeetTeam = () => {
 
                     <Card 
                         imageSrc={miinning_casual} 
+                        innerImage = {innerMiinNing} 
                         name="Lim Miin Ning" 
                         role="Front-End Web Developer" 
+                        jobDesc=""
                         socialLinks={{ 
                             instagram: 'https://www.instagram.com/lemon_lim03?igshid=OGQ5ZDc2ODk2ZA==', 
                             github: 'https://github.com/LemonLim18', 
@@ -52,8 +61,10 @@ const MeetTeam = () => {
 
                     <Card 
                         imageSrc={weihong} 
+                        innerImage = {innerWeiHong} 
                         name="Bok Wei Hong" 
                         role="Back-End Web Developer" 
+                        jobDesc=""
                         socialLinks={{ 
                             instagram: 'https://www.instagram.com/chuck_bok2901/', 
                             github: 'https://github.com/BokWeiHong', 
@@ -63,8 +74,10 @@ const MeetTeam = () => {
 
                     <Card 
                         imageSrc={kailun_casual} 
+                        innerImage = {innerKaiLun} 
                         name="Teoh Kai Lun" 
                         role="UI/UX Designer" 
+                        jobDesc=""
                         socialLinks={{ 
                             instagram: 'https://www.instagram.com/kailun09_/', 
                             github: 'https://github.com/Kailun03', 

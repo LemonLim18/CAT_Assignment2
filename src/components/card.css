@@ -1,0 +1,127 @@
+/* outermost design */
+.modal {
+    position: fixed;
+    margin: auto auto;
+    width: 88%;
+    /* could only extend to 750px in a larger screen size */
+    max-width: 700px;
+    height: 450px;
+    /* deactivate the inherited properties */
+    border-style: none;
+    border-radius: 20px;
+    box-shadow: 7px 5px 9px rgba(0, 0, 0, 0.50);
+}
+
+.modal-box {
+    display: flex; /* This will make the direct children of .modal-box line up in a row */
+    height: 100%;
+}
+
+.modal-box .col1, .modal-box .col2 {
+    border-radius: 0px;
+    /* deactivate the inherited properties */
+}
+
+.modal-box .col1 {
+    background-color: #D66AF8;
+    height: 100%;
+    flex: 1;
+}
+
+/* add vertical straight darker purple line */
+.modal-box .col1::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 32%;
+    border-right: 5px solid #B216E3;
+    transform: translateX(-50%);
+}
+
+.modal-box .col2 {
+    background-color: rgb(255, 255, 255);
+    flex: 2;
+    display: block;
+}
+/* End of the general structure design */
+
+
+/* inner column 1 */
+.modal-box .col1 img {
+    position: relative;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 80%;
+}
+
+
+/* inner col2 */
+/* X button */
+.modal-box .col2 .row1{
+    height: 10%;
+}
+
+/* Information display */
+.modal-box .col2 .row2{
+    height: 90%;
+}
+
+.modal-box .col2 .row2 h2 {
+    font-size: 1.3rem;
+    font-weight: 800;
+    text-align: left;
+    margin-left: 30px;
+    margin-right: 30px;
+    color: #4F01B3;
+}
+
+.modal-box .col2 .row2 p {
+    font-size:0.85rem;
+    font-weight: 500;
+    text-align: left;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+/* Icon List */
+.iconList {
+    position: absolute;
+    /* adjust together with .iconList ul li margin-left: 15px; */
+    right: 20%;
+    bottom: 5%;
+    width: 20px;
+}
+
+.iconList ul {
+    /* the parent container is a flex-container */
+    display: flex;
+    /* the child element is in row in the flex-container */
+    flex-direction: row;
+}
+
+.iconList ul li {
+    /* need to adjust with the .iconList right: 22%; */
+    margin-left: 15px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.iconList ul li a {
+    color: grey;
+}
+
+
+
+
+/*  close button */
+.buttonTeam {
+    position: absolute;
+    top: 5px;
+    right: 8px;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border: white;
+}
