@@ -11,7 +11,7 @@ import "../components/product.css";
 const Product = () => {
     return (
         <section className="product" id="product">
-            <h2 className="heading">Latest <span>Products</span></h2>
+            <h2 className="heading">Other <span>Products</span></h2>
             
             <div className="product-container">
                 <div className="product-box">

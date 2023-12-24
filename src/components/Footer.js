@@ -11,9 +11,9 @@ const Footer = () => {
                         <h4>Company</h4>
                         <ul>
                             <li><a href="#">Home</a></li>
-                            <li><a href="#">PDF/TXT Converter</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Products</a></li>
+                            <li><a href="#converter">PPT AI Converter</a></li>
+                            <li><a href="#meetTeam">Our Team</a></li>
+                            <li><a href="#product">Other Products</a></li>
                         </ul>
                     </div>
                     <div className="footer-col"> 
@@ -49,7 +49,7 @@ const Footer = () => {
                 
                 <hr></hr>
                 <div className="copyright">
-                    <p>TextifyPDF Inc © 2023 - All Rights Reserved</p>
+                    <p>TriStarDesign Inc © 2023 - All Rights Reserved</p>
                 </div>
             </div>
         </footer>

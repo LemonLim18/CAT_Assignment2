@@ -14,7 +14,7 @@ const Contact = () => {
                             <h3>Company Details</h3>
                             <p>Address: Kelana Square, 17, Jalan SS7/26, 47500 Petaling Jaya, Selangor Darul'Ehsan, Malaysia</p>
                             <p>Phone: 03-5629 5000</p>
-                            <p class="email">Email: TextifyPDF2023@BLKT.com</p>
+                            <p class="email">Email: TriStarDesign2023@BLKT.com</p>
                         </div>
                         <div class="icon-list">
                             <a href="https://www.facebook.com/profile.php?id=100004293498253"><i class="fa fa-facebook-f"></i></a>
