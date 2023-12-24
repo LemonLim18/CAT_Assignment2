@@ -69,7 +69,7 @@ const Header = () => {
           <li><a href="#contact" onClick={hideSideBar}>Contact</a></li>
         </ul>
       </nav>
-      <section className="banner">
+      <section className="banner header-rise">
         <img src={astronaut} alt="banner"></img>
       </section>
     </div>
