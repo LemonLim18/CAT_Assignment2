@@ -27,7 +27,7 @@ html {
     position: fixed;
     top: 0;
     left: 0;
-    height: 12vh;
+    height: 90px;
     width: 100%;
     padding: 0px 30px;
     background: white;
@@ -182,6 +182,188 @@ html {
     width: 100%;
     height: 100%;
     object-fit: cover;
+  }
+
+  /* button */
+  .header-button {
+    position: relative;
+    top: 0px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+  }
+  .header-button button{
+    /* height: 60px; */
+    /* width: 200px; */
+    height: 7.5vw;
+    width: 25%;
+    min-width: 40px;
+    min-height: 30px;
+    margin: 0 35px;
+    border-radius:50px;
+    border: none;
+    outline: none;
+    z-index: 999;
+    padding: 10px ;
+    font-size: 1.3vw;
+
+    position: relative;
+    /* top: -120px; */
+    top: -15vw;
+    padding: 0 3vw;
+    justify-content: center;
+    margin: 0 5vw;
+    background-color:rgba(0, 0, 0);
+    color: white;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+
+    animation: breathe 4s infinite ease-in-out;
+  }
+
+  .header-button button:hover {
+    background-size: 400%;
+    background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+  }
+
+  .header-button button:first-child:hover {
+    background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+    background-size: 400%;
+  }
+  .header-button button:last-child:hover {
+    background: linear-gradient(90deg, #fa7199, #f5ce62, #e43603, #fa7199);
+    background-size: 400%;
+  }
+  .header-button button:first-child:before,
+  .header-button button:last-child:before {
+    content: "";
+    position: absolute;
+    background: inherit;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    border-radius: 50px;
+    filter: blur(20px);
+    opacity: 0;
+    transition: opacity, 0.5s ease-in-out
+  }
+  .header-button button:first-child:hover:before,
+  .header-button button:last-child:hover:before {
+    opacity: 1;
+    z-index: -1;
+  }
+
+  .header-button button:hover{
+    z-index: 1;
+    animation: glow 8s linear infinite;
+  }
+
+  @keyframes glow {
+    0% {
+      background-position: 0%;
+    }
+    100% {
+      background-position: 400%;
+    }
+  }
+
+  @keyframes breathe {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.15); }
+    100% { transform: scale(1); }
+  }
+  
+  @media (max-width: 340px) {
+    /* button */
+  .header-button {
+    position: relative;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .header-button button{
+    /* height: 60px; */
+    /* width: 200px; */
+    height: 1vw;
+    width: 16%;
+    font-size: 1.7vw;
+    
+    min-width: 70px;
+    min-height: 30px;
+    margin: 0 30px;
+    border-radius:50px;
+    border: none;
+    outline: none;
+    z-index: 999;
+
+    position: relative;
+    top: -55px;
+    justify-content: center;
+    background-color:rgba(0, 0, 0);
+    color: white;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+
+    animation: breathe 4s infinite ease-in-out;
+  }
+
+  .header-button button:hover {
+    background-size: 400%;
+    background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+  }
+
+  .header-button button:first-child:hover {
+    background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+    background-size: 400%;
+  }
+  .header-button button:last-child:hover {
+    background: linear-gradient(90deg, #fa7199, #f5ce62, #e43603, #fa7199);
+    background-size: 400%;
+  }
+  .header-button button:first-child:before,
+  .header-button button:last-child:before {
+    content: "";
+    position: absolute;
+    background: inherit;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    border-radius: 50px;
+    filter: blur(20px);
+    opacity: 0;
+    transition: opacity, 0.5s ease-in-out
+  }
+  .header-button button:first-child:hover:before,
+  .header-button button:last-child:hover:before {
+    opacity: 1;
+    z-index: -1;
+  }
+
+  .header-button button:hover{
+    z-index: 1;
+    animation: glow 8s linear infinite;
+  
+  }
+
+  @keyframes glow {
+    0% {
+      background-position: 0%;
+    }
+    100% {
+      background-position: 400%;
+    }
+  }
+
+  @keyframes breathe {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.15); }
+    100% { transform: scale(1); }
+  }
   }
 
   /* when larger than 1150px */

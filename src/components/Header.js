@@ -11,6 +11,19 @@ import '../components/header.css';
 import { useState, useEffect, useRef } from 'react';
 
 const Header = () => {
+  // const [loginMessage, setLoginMessage] = useState(false);
+
+  // const handleLoginClick = () => {
+  //   if(!loginMessage){
+  //     alert('Login function is not yet available.');
+  //     setLoginMessage(true);
+  //   }
+  // }
+
+  const handleDiscoverClick = () => {
+    window.location.href = "#aboutUs";
+  }
+
   const [prevScrollPos, setPrevScrollPos] = useState(window.pageYOffset);
 
   const showSideBar = () => {
@@ -74,6 +87,11 @@ const Header = () => {
       <section className="banner header-rise">
         <img src={background_max} alt="max picture" />
         <video src={astronaut_animation1_fixed} autoPlay loop muted playsInline></video>
+        <div className="header-button">
+          
+          <button id="login">Login</button>
+          <button id="discover" onClick={handleDiscoverClick}>Discover More</button>
+        </div>
       </section>
     </div>
   );
