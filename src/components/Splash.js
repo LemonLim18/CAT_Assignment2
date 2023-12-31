@@ -1,11 +1,12 @@
 import React from "react";
 import splashImg from "../images/splash.jpg"
+import splashAnimation from "../images/splash_animation.mp4"
 import "../components/splash.css";
 
 const Splash = () => {
     return (  
         <section className="splash-section rise">
-            <img src={splashImg} alt="imager_divider" />
+            <video src={splashAnimation} autoPlay loop muted playsInline />
         </section>
     );
 }
