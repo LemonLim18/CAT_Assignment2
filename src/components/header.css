@@ -136,7 +136,7 @@ html {
     align-items: flex-start;
   }
 
-  .sidebar video {
+  .sidebar img {
     margin-top: 16px;
     height: 23px;
   }
@@ -152,6 +152,8 @@ html {
     list-style: none;
     width: 100%;
     cursor: pointer;
+    font-weight: 500;
+    color: #000000;
   }
   
   /* Color the menu first 2 bars */
