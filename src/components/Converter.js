@@ -1,7 +1,7 @@
 import React from 'react';
 import "../components/converter.css";
 import CloudIcon from  "../images/cloud.png";
-import themeSelection from "../images/themeSelection.jpg";
+import themeSelection from "../images/themeSelection.png";
 
 class Converter extends React.Component {
     render() {

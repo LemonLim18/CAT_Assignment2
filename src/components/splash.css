@@ -8,3 +8,14 @@
     width: 100%;
     height: 550px;
 }
+
+/* Define a keyframes animation named slideIn */
+@keyframes slideIn {
+    0% {
+        transform: translateX(100%); /* Start off-screen to the right */
+    }
+    100% {
+        transform: translateX(0); /* End at the original position */
+    }
+}
+

@@ -187,10 +187,11 @@ html {
   /* button */
   .header-button {
     position: relative;
-    top: 0px;
+    top: 0vw;
     display: flex;
-    justify-content:space-around;
+    justify-content:space-evenly;
     align-items: center;
+    z-index: 1;
   }
   .header-button button{
     /* height: 60px; */
@@ -199,13 +200,54 @@ html {
     width: 25%;
     min-width: 40px;
     min-height: 30px;
+    max-width: 230px;
+    max-height: 80px;
     margin: 0 35px;
     border-radius:50px;
     border: none;
     outline: none;
-    z-index: 999;
     padding: 10px ;
     font-size: 1.3vw;
+
+    position: relative;
+    /* top: -120px; */
+    top: -15vw;
+    padding: 0 3vw;
+    justify-content: center;
+    margin: 0 5vw;
+    background-color:rgba(0, 0, 0);
+    color: white;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+    animation: breathe 4s infinite ease-in-out;
+  }
+
+  /* Full Screen */
+  @media (min-width: 1414px) {
+    /* button */
+  .header-button {
+    position: relative;
+    top: 6vw;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    z-index: 1;
+  }
+
+  .header-button button{
+    height: 7.5vw;
+    width: 25%;
+    min-width: 40px;
+    min-height: 30px;
+    max-width: 230px;
+    max-height: 80px;
+    margin: 0 35px;
+    border-radius:50px;
+    border: none;
+    outline: none;
+    padding: 10px ;
+    font-size: 1.1vw;
 
     position: relative;
     /* top: -120px; */
@@ -221,6 +263,48 @@ html {
 
     animation: breathe 4s infinite ease-in-out;
   }
+}
+
+@media (min-width: 1080px) and (max-width: 1414px) {
+  /* button */
+.header-button {
+  position: relative;
+  top: 3vw;
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+  z-index: 1;
+}
+
+.header-button button{
+  height: 7.5vw;
+  width: 25%;
+  min-width: 40px;
+  min-height: 30px;
+  max-width: 230px;
+  max-height: 80px;
+  margin: 0 35px;
+  border-radius:50px;
+  border: none;
+  outline: none;
+  padding: 10px ;
+  font-size: 1.1vw;
+
+  position: relative;
+  /* top: -120px; */
+  top: -15vw;
+  padding: 0 3vw;
+  justify-content: center;
+  margin: 0 5vw;
+  background-color:rgba(0, 0, 0);
+  color: white;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  cursor: pointer;
+
+  animation: breathe 4s infinite ease-in-out;
+}
+}
 
   .header-button button:hover {
     background-size: 400%;

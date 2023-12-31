@@ -100,7 +100,7 @@ const MeetTeam = () => {
                 <div className="overlay rise">
                     <p>
                         Thumbs up for <span>creative</span> design,<br></br>
-                        Piece sign for <span>fast</span> outcome.
+                        Peace sign for <span>fast</span> outcome.
                     </p>
                 </div>
                 <img src={Team}></img>
