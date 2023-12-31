@@ -45,7 +45,7 @@ const Mission = () => {
         {/* MISSION & VISION CONTENT */}
         <section className="mission" id="mission">
             <h1 className="mission-header rise">Mission & Vision</h1>
-            <p className="mission-shortDesc rise"> Why does the service exist and what is the goals and aspirations.</p>
+            <p className="mission-shortDesc rise"> Why does the service exist and what are the goals and aspirations.</p>
 
             <div className="mission-content">
                 <div className="column1 rise">
@@ -54,14 +54,14 @@ const Mission = () => {
                         {/* <img src={missionImg} alt="Mission-Images" /> */}
                     </div>
                     <div>
-                        <p>To empower users by automating and enhancing interaction with documents. To extract text, key-value pairs, tables and structures from documents automatically and accurately.</p>
+                        <p>Our mission is to revolutionize presentations, turning dull PowerPoint slides into captivating spectacles that align seamlessly with users' themes. Through innovative design and creative flair, we aim to breathe life into every presentation, ensuring it not only engages but resonates, leaving a lasting impact on audiences and transforming information delivery.</p>
                     </div>
                    
                 </div>
                 <div className="column2 rise">
                     <h3>Our Vision <FaBook/></h3>
                     {/* <img src={visionImg} alt="vision"></img> */}
-                    <p>To create an AI service that not only understands and organize  documents but also enhances productivity tools. To shift users’ focus to acting on information rather than compiling it.</p>
+                    <p>Our vision is to develop an AI service that not only comprehensively understands and organizes documents but also seamlessly integrates with productivity tools. By automating information handling, our goal is to shift users' focus from compiling data to actively acting on insights, thereby enhancing efficiency and productivity in a transformative manner.</p>
                 </div>
 
             </div>

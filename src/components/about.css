@@ -31,12 +31,12 @@
 /* images adjustment */
 @media (min-width: 1001px){
     .about-container {
-        width: 90%;
-        height: 500px;
+        width: 95%;
+        height: 550px;
         margin: 0 auto;
     }
     .aboutImage {
-        width: 400%;
+        width: 385%;
         height: 100%;
         object-fit: cover;
         border-radius: 10px 0 0 10px;
@@ -147,16 +147,17 @@
     font-size: 2.3rem;
     font-weight: 1000;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
 }
 
 .mission-shortDesc {
     color: grey;
-    margin-top: 5px;
+    margin-top: 15px;
+    text-align: center;
 }
 
 .mission-content {
-   margin: 40px;
+   margin: 30px;
    margin-left: 0px;
    margin-top: 58px;
    display: flex;
@@ -166,7 +167,7 @@
 
 /* Align the content to left */
 .mission-content h3, .mission-content p {
-    text-align: left;
+    text-align: center;
 }
 
 .mission-content h3 {
@@ -184,15 +185,18 @@
     font-weight: 500;
     text-align: justify;
     margin-top: 30px;
+    line-height: 1.6;
 }
 
 .mission-content h3::after {
     content: "";
-    display: block;
+    display: flex;
     width: 60%;
     height: 2px;
     background-color: grey;
     margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* images adjustment */
@@ -291,6 +295,7 @@
          font-size: 1.1rem;
          font-weight: 500;
          text-align: center;
+         line-height: 1.6;
      }
      
      .mission-content h3::after {
@@ -382,7 +387,7 @@
      }
      
      .mission-content p {
-         line-height: 1.27;
+         line-height: 1.6;
          color: rgb(61, 61, 61);
          font-family: 'Roboto', sans-serif;
          font-size: 1.1rem;
@@ -640,15 +645,14 @@
          text-align: center;
      }
      
-     .mission-content p {
-         line-height: 1.27;
-         color: rgb(61, 61, 61);
-         font-family: 'Roboto', sans-serif;
-         font-size: 1.1rem;
-         font-weight: 500;
-         text-align: center;
-         margin: 0 auto;
-         width: 100%;
+     .mission-content p { 
+        padding-top: 10px;
+        line-height: 1.6;
+        color: rgb(61, 61, 61);
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.1rem;
+        font-weight: 500;
+        text-align: center;
      }
      
      .mission-content h3::after {
