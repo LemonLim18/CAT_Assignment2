@@ -1,9 +1,10 @@
 import './App.css';
 import Header from '../src/components/Header.js';
 import Showcase from '../src/components/Showcase.js';
-import About from "./components/About.js";
+import About from "../src/components/About.js";
 import Splash from "../src/components/Splash.js";
 import Converter from '../src/components/Converter.js';
+import IntroVideo from '../src/components/introVideo.js';
 import Product from '../src/components/Product.js';
 import MeetTeam from './components/MeetTeam.js';
 import Contact from '../src/components/Contact.js';
@@ -18,6 +19,7 @@ function App() {
       <Header />
       <Showcase />
       <About />
+      <IntroVideo />
       <Splash />
       <Converter />
       <Product />

@@ -1,0 +1,24 @@
+.video-section {
+    margin-top: 80px;
+    margin-bottom: 140px;
+    display: flex;
+    justify-content: center;
+}
+
+.video-section iframe {
+    width: 63%;
+    height: 35vw;
+    min-height: 230px;
+    min-width: 350px;
+}
+
+@media (max-width: 868px) {
+    .video-section iframe {
+        width: 65%;
+        height: 40vw;
+    }
+    .video-section {
+        margin-top: 0px;
+        margin-bottom: 90px;
+    }
+}
