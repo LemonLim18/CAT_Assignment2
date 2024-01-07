@@ -1,11 +1,10 @@
+
 import React from 'react';
 import logo_full from '../images/logo_full.png';
 import logo_short from '../images/logo_short.png';
 import logo_word from '../images/logo_word.png';
-import astronaut from '../images/astronaut_full.jpeg';
+
 import astronaut_animation1_fixed from '../images/astronaut_animation1_fixed.mp4';
-import astronaut_animation1 from '../images/astronaut_animation1.mp4';
-import astronaut_animation2 from '../images/astronaut_animation2.mp4';
 import background_max from '../images/background_max.jpeg';
 import '../components/header.css';
 import { useState, useEffect, useRef } from 'react';

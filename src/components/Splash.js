@@ -1,5 +1,4 @@
 import React from "react";
-import splashImg from "../images/splash.jpg"
 import splashAnimation from "../images/splash_animation.mp4"
 import "../components/splash.css";
 
