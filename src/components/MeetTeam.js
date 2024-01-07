@@ -1,22 +1,14 @@
 import React from 'react';
 import "../components/meetteam.css";
 import Team from "../images/teamPic.jpg";
-import person1 from "../images/pic01.jpg";
-import person2 from "../images/pic02.jpg";
-import person3 from "../images/pic03.jpg";
-import person4 from "../images/pic04.jpg";
 import kaahong from "../images/kaahong.jpg";
-import miinning from "../images/miinning.jpg";
 import miinning_casual from "../images/miinning_casual.jpg";
-import kailun from "../images/kailun.jpg";
 import kailun_casual from "../images/kailun_casual.jpg";
 import weihong from "../images/weihong.jpg";
-import weihong_casual from "../images/weihong_casual.jpg";
 import innerWeiHong from "../images/innerBok.png";
 import innerKaaHong from "../images/innerKaaHong.png";
 import innerKaiLun from "../images/innerKaiLun.png";
 import innerMiinNing from "../images/innerMiinNing.png";
-import { FaInstagram, FaGithub, FaLinkedin } from "react-icons/fa";
 import Card from "../components/Card.js";
 
 const MeetTeam = () => {
