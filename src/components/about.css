@@ -1,9 +1,16 @@
-@media (max-width: 1001px) {
+@media (max-width: 445px) {
+    .about-container {
+        flex-direction: column;
+        height: 650px;
+    }
+}
+@media (min-width: 445px) and (max-width: 1001px) {
     .about-container {
         flex-direction: column;
         height: 800px;
     }
-
+}
+@media (max-width: 1001px) {
 
     .aboutImage {
         width: 100%;
@@ -21,7 +28,6 @@
 }
 
 .about-container {
-    display: flex;
     transition: all 1s ease-in-out;
     border-radius: 10px;
     box-shadow: 5px 5px  10px 5px rgba(0, 0, 0, 0.5);
@@ -89,7 +95,7 @@
 
 /* Align the content to left */
 .about-content h3, .about-content p {
-    text-align: left;
+    text-align: justify;
 }
 
 .about-content h3 {
@@ -841,7 +847,8 @@
     }
 
     .about-content p {
-        font-size: 0.7rem;
+        font-size: 0.75rem;
+        text-align: justify;
         line-height: 1.5;
     }
     
@@ -921,10 +928,10 @@
 
      /* stretch until this length */
      .intro-text {
-        max-height: 250px;
+        max-height: 280px;
         overflow-y: auto;
-        margin-top: 30px;
-        margin-bottom: 30px;
+        margin-top: 25px;
+        margin-bottom: 0px;
         padding-left: 0px;
         padding-right: 0px;
         margin-left: 25px;
