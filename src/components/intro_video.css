@@ -9,7 +9,7 @@
     width: 63%;
     height: 35vw;
     min-height: 230px;
-    min-width: 350px;
+    min-width: 320px;
 }
 
 @media (max-width: 868px) {
